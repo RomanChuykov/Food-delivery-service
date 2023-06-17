@@ -15,6 +15,7 @@
 @import url('./modal-subscribe.css');
 @import url('./offerings.css');
 @import url('./subscribe.css');
+@import url('./menu.css');
 
 :root {
   --font: Roboto, sans-serif;
