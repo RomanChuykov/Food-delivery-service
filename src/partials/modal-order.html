@@ -20,6 +20,7 @@
             type="text"
             name="user-name"
             class="modal-form-input"
+            required
             pattern="[a-zA-Zа-яА-Я]+"
             minlength="3"
             maxlength="25"
@@ -35,7 +36,8 @@
             type="tel"
             name="user-phone"
             class="modal-form-input"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            required
+            pattern="\+380\[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
             title="+38(0XX)-XXX-XX-XX"
             placeholder="+38(0_ _) _ _ _   _ _   _ _"
           />
@@ -49,6 +51,7 @@
             type="email"
             name="user-email"
             class="modal-form-input"
+            required
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             placeholder="example@gmail.com"
           />
