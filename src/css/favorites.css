@@ -1,0 +1,10 @@
+.favorites-wrap {
+    position: absolute;
+    width: 336px;
+    height: 338px;
+    left: 400px;
+    top: 1820px;
+    background: #FEFEFE;
+    border: 14px solid #FFE550;
+    border-radius: 50%;
+}
