@@ -1,0 +1,61 @@
+<!-- MODAL WINDOW -->
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-btn-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+
+    <!-- MODAL FORM -->
+
+    <form class="modal-form">
+      <p class="modal-form-desc">Order Form</p>
+
+      <label class="modal-form-field">
+        <span class="modal-form-input-desc">Name</span>
+        <span class="modal-form-input-wrapper">
+          <input
+            type="text"
+            name="user-name"
+            class="modal-form-input"
+            pattern="[a-zA-Zа-яА-Я]+"
+            minlength="3"
+            maxlength="25"
+            placeholder="Your name"
+          />
+        </span>
+      </label>
+
+      <label class="modal-form-field">
+        <span class="modal-form-input-desc">Phone number</span>
+        <span class="modal-form-input-wrapper">
+          <input
+            type="tel"
+            name="user-phone"
+            class="modal-form-input"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="+38(0XX)-XXX-XX-XX"
+            placeholder="+38(0_ _) _ _ _   _ _   _ _"
+          />
+        </span>
+      </label>
+
+      <label class="modal-form-field">
+        <span class="modal-form-input-desc">E-mail</span>
+        <span class="modal-form-input-wrapper">
+          <input
+            type="email"
+            name="user-email"
+            class="modal-form-input"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            placeholder="example@gmail.com"
+          />
+        </span>
+      </label>
+
+      <button type="submit" class="modal-form-submit btn">Send</button>
+    </form>
+  </div>
+</div>
