@@ -1,39 +1,66 @@
-<header class="header">
-    <div class=" container header-container">
-    <nav class="nav-header">  
-     <svg class="logo-icon">
-     <use href="./"></use>
+   <header class="header">
+   <div class="container header-container">
+   <nav class="nav-header">
+   <a class="logo" href="./header.html"> 
+     <svg class="logo-icon" width="66" height="52">
+     <use href="/src/img/icons.svg#icon-leib"></use>
      </svg>
-      
+     </a>
+     
 
-
-    
-    <ul class="list nav-list">
-     <li class="nav-item">
-     <a href="#home" class="nav-link">Home</a>
+   <ul class="menu-list">
+     <li class="menu-item">
+     <a href="#home" class="menu-link">Home</a>
      </li>
-     <li class="nav-item">
-     <a href="#about" class="nav-link">About</a>
+     <li class="menu-item">
+     <a href="#about" class="menu-link">About</a>
      </li>
-     <li class="nav-item">
-     <a href="#service" class="nav-link">Service</a>
+     <li class="menu-item">
+     <a href="#service" class="menu-link">Service</a>
      </li>
-     <li class="nav-item">
-     <a href="#menu" class="nav-link">Menu</a>
+     <li class="menu-item">
+     <a href="#menu" class="menu-link">Menu</a>
      </li>
-     <li class="nav-item">
-     <a href="#contact" class="nav-link">Contact</a>
+     <li class="menu-item">
+     <a href="#contact" class="menu-link">Contact</a>
      </li>
      </ul>
      </nav>
 
       
-     <button class="" type="button"Order Now>
-
-
-     <svg class="">
-     <use href="./"></use>
+     <button class="button" type="mobile-menu-open js-open-menu active-button">Order Now
+     <svg class="mobile-menu-open-icon" width="28" height="28">
+     <use href="/src/img/icons.svg#icon-leib2"></use>
      </svg>
-    </button>
-    </div>
-  </header>
+   </button>
+   </div>
+
+   <!-- MOBILE MENU -->
+   <div class="mobile-menu js-menu-container">
+   <div class="mobile-menu-container">
+     <button class="modal-close-btn js-close-menu hidden">
+     <svg class="mobile-menu-close-icon">
+     <use href="/src/img/icons.svg#close-button"></use>
+     </svg>
+     </button>
+     <ul class="mobile-menu-list list">
+     <li class="mobile-menu-list-item">
+     <a class="link mobile-menu-link menu-link js-close-menu" href="#home">Home</a>  
+     </li>
+     <li class="mobile-menu-list-item">
+     <a class="link mobile-menu-link menu-link js-close-menu" href="#about">About</a>         
+     </li>
+     <li class="mobile-menu-list-item">
+     <a class="link mobile-menu-link menu-link js-close-menu" href="#service">Service</a>
+     </li>
+     <li class="mobile-menu-list-item">
+     <a class="link mobile-menu-link menu-link js-close-menu" href="#menu">Menu</a>    
+     </li>
+     <li class="mobile-menu-list-item">
+     <a class="link mobile-menu-link menu-link js-close-menu" href="#contact">Contact</a>     
+     </li>
+     </ul>
+   </div>
+   </div>
+   </div>
+ </header>
