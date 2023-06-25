@@ -26,9 +26,10 @@
      </li>
      </ul>
      </nav>
-
-      
-     <button class="button" type="mobile-menu-open js-open-menu active-button">Order Now
+    
+     
+     <button type="button" class="data-modal-open">Order Now</button>
+     <button type="" class ="mobile-menu-open js-open-menu">
      <svg class="mobile-menu-open-icon" width="28" height="28">
      <use href="/src/img/icons.svg#icon-leib2"></use>
      </svg>
@@ -43,24 +44,66 @@
      <use href="/src/img/icons.svg#close-button"></use>
      </svg>
      </button>
-     <ul class="mobile-menu-list list">
-     <li class="mobile-menu-list-item">
+     <ul class="mobile-menu-list">
+     <li class="mobile-menu-item">
      <a class="link mobile-menu-link menu-link js-close-menu" href="#home">Home</a>  
      </li>
-     <li class="mobile-menu-list-item">
-     <a class="link mobile-menu-link menu-link js-close-menu" href="#about">About</a>         
+     <li class="mobile-menu-item">
+     <a class="mobile-menu-link menu-link js-close-menu" href="#about">About</a>         
      </li>
-     <li class="mobile-menu-list-item">
-     <a class="link mobile-menu-link menu-link js-close-menu" href="#service">Service</a>
+     <li class="mobile-menu-item">
+     <a class="mobile-menu-link menu-link js-close-menu" href="#service">Service</a>
      </li>
-     <li class="mobile-menu-list-item">
-     <a class="link mobile-menu-link menu-link js-close-menu" href="#menu">Menu</a>    
+     <li class="mobile-menu-item">
+     <a class="mobile-menu-link menu-link js-close-menu" href="#menu">Menu</a>    
      </li>
-     <li class="mobile-menu-list-item">
-     <a class="link mobile-menu-link menu-link js-close-menu" href="#contact">Contact</a>     
+     <li class="mobile-menu-item">
+     <a class="mobile-menu-link menu-link js-close-menu" href="#contact">Contact</a>     
      </li>
      </ul>
    </div>
    </div>
+
+<!-- MOBILE MENU-2.0 -->
+   <div class="backdrop" data-modal="modal-1">
+   <div class="modal-container">
+     <button type="button" class="modal-btn-close" data-modal-close>
+     <svg width="11" height="11" class="modal-btn-icon">
+     <use href="/src/img/icons.svg#close-button"></use>
+     </svg>
+    </button>
+   <h1 class="modal-title">Order Form</h1>
+   <form class="modal-form-order">  
+   <div class="modal-form-input-subtitle">Name</div>
+   <div class="modal-form-input-wrapper">
+   <input class="modal-form-input"
+      type="text"
+      name="user_name"
+      placeholder="Your name" 
+      required />
    </div>
- </header>
+   <div class="modal-form-input-subtitle">Phone number</div>
+   <div class="modal-form-input-wrapper">
+   <input class="modal-form-input"
+      type="text"
+      name="user_name"
+      placeholder="+38(0_ _)_ _ _ _" 
+      required
+      pattern="^\d{10}$"
+      title="xxx-xx-xx"/>
+   </div>
+   <div class="modal-form-input-subtitle">E-mail</div>
+   <div class="modal-form-input-wrapper">
+   <input class="modal-form-input"
+      type="text"
+      name="user_name"
+      placeholder="example@gmail.com" 
+      required/>    
+   </div>
+  </form>
+  <button type="submit" class="button modal-buy-btn" data-modal-close>
+    Send
+  </button>
+</div>
+</div>    
+</header>
