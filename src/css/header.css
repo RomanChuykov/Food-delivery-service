@@ -1,28 +1,19 @@
-.header {
-  width: 320px;
-  padding-left: 20px;
-  padding-right: 22px; 
+.header-container {
+   display: flex;
+   align-items: center; 
+   justify-content: space-between; 
+   border: none;   
  }
- 
- 
- .header-container {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    margin: auto;
-    
- }
- 
  .logo-icon {
    padding-top: 10px;  
    padding-bottom: 10px;
  }
  
-  .menu-list {
+.menu-list {
    display: none;  
  }
  
- .data-modal-open {
+.data-modal-open {
    display: none;  
  }
  
