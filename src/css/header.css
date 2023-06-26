@@ -18,12 +18,40 @@
    background-color: transparent;
 }
   
-.menu-list {
-   display: none;  
-}
- 
 .data-modal-open {
    display: none;  
+}
+
+ .menu-list {
+    display: none;
+}
+
+.mobile-menu {
+  width: 130px;
+  height: 255px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .menu-list {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding-top: 30px;
+    padding-bottom: 29px;
+  }
+  .mobile-menu {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
  
  
