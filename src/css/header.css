@@ -105,7 +105,7 @@
 @media only screen and (min-width: 1280px) {
   .menu-list {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 28px;
     padding-top: 30px;
     padding-bottom: 29px;
@@ -129,7 +129,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  padding-right: 6px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }
 
 
