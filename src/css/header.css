@@ -76,6 +76,8 @@
     gap: 28px;
     padding-top: 30px;
     padding-bottom: 29px;
+    padding-right: 30px;
+    padding-left: 191px;
   }
   .mobile-menu-open {
     display: none;
@@ -107,6 +109,7 @@
     gap: 28px;
     padding-top: 30px;
     padding-bottom: 29px;
+    
   }
   .mobile-menu-open {
     display: none;
