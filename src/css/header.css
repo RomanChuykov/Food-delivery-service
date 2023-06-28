@@ -12,6 +12,11 @@
    border: none;
 }
 
+.logo-icon {
+  width: 66px;
+  height: 52px;
+  
+}
 .data-modal-open {
    display: none;  
 }
@@ -105,18 +110,21 @@
 @media only screen and (min-width: 1280px) {
   .menu-list {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 28px;
     padding-top: 30px;
     padding-bottom: 29px;
-    
-  }
-  .mobile-menu-open {
-    display: none;
+    padding-right: 30px;
+    padding-left: 735px;
+ 
   }
 
-.js-menu-container {
-  display: none;
+  .mobile-menu-open {
+   display: none;
+  }
+
+ .js-menu-container {
+   display: none;
 }
 
 .data-modal-open {
@@ -132,10 +140,7 @@
   padding-right: 6px;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
-
-
 }
  
  
