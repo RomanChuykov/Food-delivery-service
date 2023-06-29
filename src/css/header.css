@@ -14,21 +14,34 @@
 
 .logo-icon {
    width: 66px;
-   height: 52px;
-  
+   height: 52px;  
+}
+
+.menu-list {
+   display: none;
 }
 
 .data-modal-open {
    display: none;  
 }
 
- .menu-list {
-   display: none;
+ 
+
+.mobile-menu-open {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: none;
+ background-color: transparent;
 }
+
+
+
 
 .mobile-menu.is-open {
   pointer-events: auto;
   transform: translateX(0);
+
 }
 
 .mobile-menu {
