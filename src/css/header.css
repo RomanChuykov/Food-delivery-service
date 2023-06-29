@@ -1,0 +1,53 @@
+ 
+.header {
+ width: 320px;
+ padding-left: 20px;
+ padding-right: 22px; 
+}
+
+
+.header-container {
+   display: flex;
+   align-items: center; 
+   justify-content: space-between;
+   margin: auto;
+   
+}
+
+.logo-icon {
+  padding-top: 10px;  
+  padding-bottom: 10px;
+}
+
+ .menu-list {
+  display: none;  
+}
+
+.data-modal-open {
+  display: none;  
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+ .menu-list {
+   display: flex; 
+   align-items: center;
+   padding-top: 28px; 
+   padding-bottom: 28px; 
+ }
+
+
+ 
+}
+  
+  
+  @media only screen and (min-width: 1280px) {
+    .container {
+      width: 1280px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  
