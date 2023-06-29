@@ -94,6 +94,15 @@
     padding-right: 30px;
     padding-left: 191px;
   }
+
+  .underline {
+    color:#2c2c2c;
+    text-decoration: underline;
+    }
+  
+
+
+
   .mobile-menu-open {
     display: none;
   }
@@ -131,7 +140,9 @@
 
  .underline {
   color: #bbf330;
-}
+  text-decoration: underline;
+  }
+
 
 
   .mobile-menu-open {
