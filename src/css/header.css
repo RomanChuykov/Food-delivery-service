@@ -70,10 +70,6 @@
   border: none;
 }
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  color: #2c2c2c;
-}
 
 .mobile-menu-close-icon {
   width: 11px;
@@ -99,6 +95,9 @@
     padding-bottom: 29px;
     padding-right: 30px;
     padding-left: 191px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
   }
 
   .underline {
