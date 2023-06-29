@@ -33,8 +33,6 @@
 
 .mobile-menu {
   position: fixed;
-  height: 255px;
-  width: 130px;
   top: 0;
   right: 0;
   z-index: 9;
