@@ -2,7 +2,7 @@
    height: 72px;
    display: flex;
    align-items: center; 
-   justify-content: space-between;   
+   justify-content: space-between;  
 }
 
 .header-navi {
@@ -25,23 +25,17 @@
    display: none;  
 }
 
- 
-
 .mobile-menu-open {
- display: flex;
- justify-content: center;
- align-items: center;
- border: none;
- background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
 }
-
-
-
 
 .mobile-menu.is-open {
   pointer-events: auto;
   transform: translateX(0);
-
 }
 
 .mobile-menu {
@@ -51,7 +45,11 @@
   z-index: 9;
   background-color: #bbf330;
   transform: translate(100%);
-  transition: transform var(--transition-dur-timing-func),width var(--transition-dur-timing-func);
+  transition: transform var(--transition-dur-timing-func), width var(--transition-dur-timing-func);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
   
 .mobile-menu-container {
@@ -70,13 +68,11 @@
   align-items: center;
   background-color: transparent;
   border: none;
-  border-radius: 50%;
-  outline: none;
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  color:  #2c2c2c;;
+  color: #2c2c2c;
 }
 
 .mobile-menu-close-icon {
@@ -156,18 +152,13 @@
   }
 
 .data-modal-open {
-  width: 98px;
-  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color:  #2c2c2c;
   background-color: #bbf330;
   border-radius: 100px;
   border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-right: 6px;
-  padding-top: 20px;
-  padding-bottom: 20px;
  }
 }   
  
