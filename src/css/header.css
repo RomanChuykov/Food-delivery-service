@@ -43,7 +43,7 @@
   top: 0;
   right: 0;
   z-index: 9;
-  background-color: #bbf330;
+  background-color: #fefefe;
   transform: translate(100%);
   transition: transform var(--transition-dur-timing-func), width var(--transition-dur-timing-func);
   border-top-left-radius: 30px;
@@ -129,7 +129,7 @@
   
 
 
-  
+
   .underline {
     color:#2c2c2c;
     text-decoration: underline;
