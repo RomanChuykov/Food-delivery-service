@@ -73,15 +73,13 @@
         <label>
           <input
             id="inputField"
-            oninput="checkInput()"
             class="subscribe-input"
             type="email"
             name="user_email"
             required
-            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             placeholder="Enter your email"
           />
-          <span id="errorText"></span>
+          <span id="errorText" class="errorText"></span>
         </label>
         <button class="subscribe-btn" type="submit">Subscribe</button>
       </form>
