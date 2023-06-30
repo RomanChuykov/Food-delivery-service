@@ -47,20 +47,21 @@
   position: absolute;
   top: 24px;
   right: 24px;
-  background-color: var(--color-cornflower);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border: none;
   padding: 0;
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
+  stroke: rgba(44, 44, 44, 1);
   transition: background-color var(--transition-dur-and-func),
     border var(--transition-dur-and-func);
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: var(--color-ocean);
-  border: none;
+  background-color: var(--btn-green-background);
+  border: 2px solid var(--dark-green, #7eb101);
 }
 
 .modal-close-btn-icon {
@@ -86,7 +87,14 @@
 
 .modal-form-field {
   display: block;
+}
+
+.modal-form-field:not(:nth-last-child(2)) {
   margin-bottom: 24px;
+}
+
+.modal-form-field:nth-last-child(2) {
+  margin-bottom: 32px;
 }
 
 /* .modal-form-input:invalid {
@@ -142,7 +150,6 @@
   padding: 10px 38px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 32px;
   transition: background-color var(--transition-dur-and-func);
 }
 
