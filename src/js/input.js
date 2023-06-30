@@ -1,6 +1,6 @@
 const inputField = document.getElementById('inputField')
 const errorText = document.getElementById('errorText')
-inputField.addEventListener('blur', checkInput)
+inputField.addEventListener('input', checkInput)
 
 function checkInput (evt) {
     const email = evt.currentTarget.value
