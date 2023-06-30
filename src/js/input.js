@@ -1,5 +1,5 @@
 const inputField = document.getElementById('inputField')
-const errorText = document.getElementById('errorText')
+const errorText = document.querySelector('.errorText')
 inputField.addEventListener('input', checkInput)
 
 function checkInput (evt) {
@@ -11,9 +11,18 @@ function checkInput (evt) {
         errorText.textContent = " "
     }
     else {
-        inputField.classList.remove('valid')
-        inputField.classList.add('error')
-        errorText.textContent = "Please enter a valid email address"
+        inputField.classList.remove('valid');
+        inputField.classList.add('error');
+        const imgSrc = '../img/error.svg';
+        const imgElement = document.createElement('img');
+        imgElement.src = imgSrc;
+        imgElement.classList.add('errorIcon')
+        imgElement.style.display = 'inline'
+        imgElement.style.marginRight = '4px'
+        imgElement.style.marginLeft = '12px'
+        errorText.textContent = '';
+        errorText.appendChild(imgElement);
+        errorText.insertAdjacentHTML('beforeend', 'Please enter a valid email address');
     }
 }
 
