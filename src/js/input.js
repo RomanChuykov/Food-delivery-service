@@ -25,4 +25,3 @@ function checkInput (evt) {
         errorText.insertAdjacentHTML('beforeend', 'Please enter a valid email address');
     }
 }
-
