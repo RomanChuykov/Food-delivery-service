@@ -17,16 +17,16 @@
         <span class="modal-form-input-desc">Name</span>
         <span class="modal-form-input-wrapper">
           <input
+          id="input-name"
             type="text"
             name="user-name"
             class="modal-form-input"
             required
-            pattern="[a-zA-Zа-яА-Я]+"
             minlength="3"
             maxlength="25"
             placeholder="Your name"
           />
-          <span class="modal-form-field-warning"></span>
+          <span class="errorText"></span>
         </span>
       </label>
 
@@ -34,14 +34,15 @@
         <span class="modal-form-input-desc">Phone number</span>
         <span class="modal-form-input-wrapper">
           <input
+          id="input-phone"
             type="tel"
             name="user-phone"
             class="modal-form-input"
             required
-            pattern="\+380\[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
             title="+38(0XX)-XXX-XX-XX"
             placeholder="+38(0_ _) _ _ _   _ _   _ _"
           />
+          <span class="errorText"></span>
         </span>
       </label>
 
@@ -49,13 +50,14 @@
         <span class="modal-form-input-desc">E-mail</span>
         <span class="modal-form-input-wrapper">
           <input
+          id="input-field-subscribe"
             type="email"
             name="user-email"
             class="modal-form-input"
             required
-            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             placeholder="example@gmail.com"
           />
+          <span class="errorText"></span>
         </span>
       </label>
 
