@@ -42,15 +42,16 @@
 .mobile-menu-container {
   position: fixed;
   top: -22px;
-  right: 0; 
+  right: 20px; 
   width: 130px;
   height: 255px;
   background-color: #fefefe;
-  
   border-top-left-radius: 30px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  box-shadow: 0 0 0 1px rgba(34, 60, 80, 0.2);
+
 }
 
 .mobile-menu.is-open {
@@ -90,7 +91,6 @@
   padding-left: 16px;
   padding-right: 42px;
   cursor: pointer;
-  background-color: #fefefe;
  
 }
 
