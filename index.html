@@ -16,8 +16,8 @@
     
     <style>.error {border: 1px solid #FF705D;}</style>
     <style>.valid {border: 1px solid #7EB101;}</style>
-    <script type="module" crossorigin src="/food-delivery-service/assets/input-e78a7a8a.js"></script>
-    <link rel="stylesheet" href="/food-delivery-service/assets/input-37c092de.css">
+    <script type="module" crossorigin src="/food-delivery-service/assets/modal-order-phone-1eb17a55.js"></script>
+    <link rel="stylesheet" href="/food-delivery-service/assets/modal-order-phone-37c092de.css">
   </head>
   <body>
        <header class="header">
@@ -222,7 +222,7 @@
       <form class="subscribe-form" name="subscribe">
         <label>
           <input
-            id="inputField"
+            id="input-field-subscribe"
             class="subscribe-input"
             type="email"
             name="user_email"
@@ -301,16 +301,16 @@
         <span class="modal-form-input-desc">Name</span>
         <span class="modal-form-input-wrapper">
           <input
+          id="input-name"
             type="text"
             name="user-name"
             class="modal-form-input"
             required
-            pattern="[a-zA-Zа-яА-Я]+"
             minlength="3"
             maxlength="25"
             placeholder="Your name"
           />
-          <span class="modal-form-field-warning"></span>
+          <span class="errorText"></span>
         </span>
       </label>
 
@@ -318,14 +318,15 @@
         <span class="modal-form-input-desc">Phone number</span>
         <span class="modal-form-input-wrapper">
           <input
+          id="input-phone"
             type="tel"
             name="user-phone"
             class="modal-form-input"
             required
-            pattern="\+380\[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
             title="+38(0XX)-XXX-XX-XX"
             placeholder="+38(0_ _) _ _ _   _ _   _ _"
           />
+          <span class="errorText"></span>
         </span>
       </label>
 
@@ -333,13 +334,14 @@
         <span class="modal-form-input-desc">E-mail</span>
         <span class="modal-form-input-wrapper">
           <input
+          id="input-field-subscribe"
             type="email"
             name="user-email"
             class="modal-form-input"
             required
-            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             placeholder="example@gmail.com"
           />
+          <span class="errorText"></span>
         </span>
       </label>
 
