@@ -1,0 +1,189 @@
+/* npm install */
+/* npm run dev */
+.section-customers{
+  margin-bottom: -42px;
+}
+@media only screen and (min-width: 768px) {
+   .section-customers{
+    margin-bottom: -75px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .section-customers{
+   margin-bottom: -60px;
+ }
+}
+
+
+.customers{
+    background-image: url(../img/customers/customers-bg.jpg);
+    background-size: contain;
+    background-size: 100% 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #FFE550;
+}
+@media only screen and (min-width: 768px) {
+    .customers{
+    background-image: url(../img/customers/customers-bg-tab.jpg);
+    padding-bottom: 120px;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1280px) {
+   .customers{
+    background-image: url(../img/customers/customers-bg-desc.jpg);
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+}
+
+.title-block{
+    width: 280px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 60px; */
+    margin-bottom: 32px;
+}
+@media only screen and (min-width: 768px) {
+   .title-block{
+    width: 537px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.customers-title {
+    
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2C2C2C;
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+    .customers-title{
+font-size: 42px;
+line-height: 49px;
+  }
+}
+.customers-aftertitle {
+   
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2C2C2C;
+}
+.customers-aftertitle-tab{
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+   .customers-aftertitle{
+     display: none;
+  }
+  .customers-aftertitle-tab{
+    display: block;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2C2C2C;
+    
+  }
+}
+.customers-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+@media only screen and (min-width: 768px) {
+   .customers-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+   .customers-ul{
+    gap: 139px;
+  }
+}
+.first-cart{
+    /* margin-bottom: 24px; */
+}
+@media only screen and (min-width: 768px) {
+   .first-cart{
+    margin-bottom: 0;
+  }
+}
+.stars{
+    display: flex;
+    gap: 4px;
+    margin-bottom: 28px;
+}
+.customers-article{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2C2C2C;
+    margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+   .customers-article{
+font-size: 18px;
+line-height: 21px;
+  }
+}
+.customers-cart {
+    background: #FFFFFF;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    border-bottom-left-radius:10% ;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+}
+@media only screen and (min-width: 768px) {
+   .customers-cart{
+    padding: 12px;
+    width: 336px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+   .customers-cart{
+    width: 501px;
+    padding: 14px;
+  }
+}
+.customer{
+    width: 160px;
+display: flex;
+}
+.customer-text{
+    gap: 2px;
+    border-right: 0.85px solid #7EB101;
+    padding-right: 14px;
+}
+.customer-foto{
+    margin-right: 16px;
+}
+.customer-name{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
